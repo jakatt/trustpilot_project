@@ -4,14 +4,14 @@ setvar.env
 *.env
 
 # Fichiers de données Excel et PDF - CONTIENNENT DES DONNÉES PRIVÉES
-*.xlsx
+#*.xlsx
 *.pdf
-Trust_Pilot_Reviews.xlsx
-Trust_Pilot_Review_Analysis_*.xlsx
-Trustpilot_Dataset.xlsx
-trustpilot_guidelines.pdf
-output_trustpilot.xlsx
-Review_*.xlsx
+#Trust_Pilot_Reviews.xlsx
+#Trust_Pilot_Review_Analysis_*.xlsx
+#Trustpilot_Dataset.xlsx
+#trustpilot_guidelines.pdf
+#output_trustpilot.xlsx
+#Review_*.xlsx
 
 # Polices
 *.ttf
