@@ -1,0 +1,54 @@
+# Fichiers sensibles - NE PAS COMMITER
+setvar.env
+.env
+*.env
+
+# Fichiers de données Excel et PDF - CONTIENNENT DES DONNÉES PRIVÉES
+*.xlsx
+*.pdf
+Trust_Pilot_Reviews.xlsx
+Trust_Pilot_Review_Analysis_*.xlsx
+Trustpilot_Dataset.xlsx
+trustpilot_guidelines.pdf
+output_trustpilot.xlsx
+Review_*.xlsx
+
+# Polices
+*.ttf
+*.otf
+
+# Environnement virtuel Python
+demo17/
+venv/
+env/
+.venv/
+
+# Fichiers Python générés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+.sublime-*
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.bak
+*.old
