@@ -6,6 +6,8 @@ Ce projet contient plusieurs outils Python pour analyser et traiter les avis Tru
 
 ### 1. Reviews_Classification.py
 Classifie automatiquement les avis Trustpilot en thèmes principaux.
+Génère le fichier Trust_Pilot_Review_Analysis.xlsx qui pointe la
+modération Trustpilot comme un sujet d'insatisfaction majeur. 
 
 **Fonctionnalités :**
 - Lecture d'avis depuis un fichier Excel
@@ -15,7 +17,10 @@ Classifie automatiquement les avis Trustpilot en thèmes principaux.
 - Garantit que le total des comptes ≥ nombre d'avis d'entrée
 
 ### 2. explication, reformulation.py
+Proof of concept.
 Génère des explications et reformulations pour les avis supprimés de Trustpilot.
+Utilise le fichier Trustpilot_Dataset.xlsx en input avec un échantillon de 13 revues.
+Génère le fichier output_trustpilot.xlsx en output
 
 **Fonctionnalités :**
 - Analyse des raisons de suppression d'avis
@@ -23,11 +28,17 @@ Génère des explications et reformulations pour les avis supprimés de Trustpil
 - Proposition de reformulations conformes aux guidelines
 - Extraction automatique du texte des PDF de guidelines
 
-### 3. focus_on_review_flagging.py
-Analyse spécialisée pour les avis signalés.
-
-### 4. focus_on_review_removal.py
+### 3. focus_on_review_removal.py
 Analyse spécialisée pour les avis supprimés.
+Utilise le fichier Trust_Pilot_Reviews.xlsx en input avec 448 avis.
+Génère le fichier Review_Removal_Analysis.xlsx en output qui liste les 122/448 avis supprimés.
+
+### 4. focus_on_review_flagging.py
+Analyse spécialisée pour les avis signalés.
+Utilise le fichier Trust_Pilot_Reviews.xlsx en input avec 448 avis.
+Génère le fichier Review_Flagging_Analysis.xlsx en output qui liste les 60/448 avis signalés.
+
+
 
 ## 🚀 Installation
 

@@ -8,7 +8,7 @@ load_dotenv(find_dotenv("setvar.env"))
 
 # Configuration
 INPUT_FILE = 'Trust_Pilot_Reviews.xlsx'
-OUTPUT_FILE = 'Trust_Pilot_Review_Analysis_v2.xlsx'
+OUTPUT_FILE = 'Trust_Pilot_Review_Analysis.xlsx'
 COMMENT_COLUMN = 'text'
 OPENAI_MODEL = "gpt-4-1106-preview"
 MAX_THEMATICS = 10
